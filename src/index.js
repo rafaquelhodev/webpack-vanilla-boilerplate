@@ -1,6 +1,9 @@
+import './style.css';
+
+
 function component() {
   const element = document.createElement('div');
-  element.innerHTML = 'Hello, webpack 2!';
+  element.innerHTML = 'Hello, webpack 6!';
   return element;
 }
 
