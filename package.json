@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --write .",
     "build": "webpack build",
     "watch": "webpack watch",
     "start": "webpack serve --open --config webpack.config.js"
@@ -13,11 +14,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.29.0",
     "@tailwindcss/postcss": "^4.1.10",
     "css-loader": "^7.1.2",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.2.0",
     "postcss": "^8.5.5",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^10.2.3",
+    "prettier": "^3.5.3",
     "style-loader": "^4.0.0",
     "tailwindcss": "^4.1.10",
     "webpack": "^5.99.9",
